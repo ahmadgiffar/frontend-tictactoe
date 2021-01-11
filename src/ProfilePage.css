@@ -1,0 +1,40 @@
+.container-profile {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-profile {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn {
+  margin-right: 20px;
+  background-color: #2c3233;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: white;
+  color: #2c3233;
+  border: 1px solid #2c3233;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-profile {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-profile {
+    width: 90%;
+  }
+}
